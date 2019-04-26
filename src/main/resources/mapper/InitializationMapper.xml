@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.coastline.common.web.dao.InitializationDao">
+
+   <!-- select TABLE_NAME from INFORMATION_SCHEMA.TABLES where TABLE_SCHEMA='dbname' and TABLE_NAME='tablename' ;-->
+
+    <select id="isExistTable" resultType="java.util.List">
+
+    </select>
+
+    <select id="createClusterTable">
+
+    </select>
+
+</mapper>
